@@ -1,12 +1,12 @@
 <?php
 //5次元配列
-$fruit =['apple', 'grape', 'banana'];
-$origin = ['青森', '山梨', 'フィリピン'];
-$stock = [2, 3, 4];
-$price = [120, 200, 100];
+$fruit =['apple', 'grape'];
+$origin = ['青森', '山梨',];
+$stock = [2, 3,];
+$price = [120, 200,];
 
 $box = [$fruit, $origin, $stock, $price];
 
-echo $box[1][0][0][0];
+var_dump($box[0][0]) ;
 
 ?>
